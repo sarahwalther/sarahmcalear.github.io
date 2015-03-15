@@ -13,3 +13,7 @@ linkedin_username: sarahmcalear
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects:
+    output: true

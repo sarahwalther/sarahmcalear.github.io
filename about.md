@@ -1,7 +1,8 @@
 ---
-layout: page
-title: About
+layout:    page
+title:     About
 permalink: /about/
+weight:    2
 ---
 
 I just completed the 12-week-long Web Development Immersive at General Assembly.
