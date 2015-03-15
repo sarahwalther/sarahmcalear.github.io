@@ -1,5 +1,7 @@
 header {
   > .wrapper {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
     > img {
       height: 45px;
       padding: 5px;

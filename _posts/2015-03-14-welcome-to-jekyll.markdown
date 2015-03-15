@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-03-14 20:14:04
+layout:     post
+title:      "Welcome to Jekyll!"
+date:       2015-03-14 20:14:04
 categories: jekyll update
+picture:    /assets/pictures/blog/IMG_3821.jpg
+content:    Attempt 1
 ---
 
 

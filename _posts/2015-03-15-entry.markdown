@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "Graduate School to Web Immersive"
+date:       2015-03-15 15:48:04
+categories: grad school web development immersive boot camp
+picture:    /assets/pictures/blog/DSCF6214.jpg
+content:    My very first blog. Yay!
+---
+
+
+HELLO!  LBKLASDH:ASDLKJHSADLKJASDLJKGHASDLKGJ
