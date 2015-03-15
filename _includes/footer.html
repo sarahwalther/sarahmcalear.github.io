@@ -42,6 +42,35 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.linkedin_username %}
+          <li>
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}/en">
+              <span class="icon  icon--linkedin">
+                <svg viewBox="80 105 350 350">
+                  <path fill="#828282" d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/>
+                </svg>
+              </span>
+
+              <span class="username">{{ site.linkedin_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+              <span class="icon  icon--facebook">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="m 11.03968,16.000001 v -6.19608 h 2.07973 l 0.31141,-2.41472 h -2.39114 v -1.54165 c 0,-0.69912 0.19414,-1.17555 1.19666,-1.17555 l 1.27866,-5.6e-4 v -2.15974 c -0.22114,-0.0294 -0.98017,-0.0952 -1.86324,-0.0952 -1.8435605,0 -3.1057105,1.12532 -3.1057105,3.19188 v 1.7808 h -2.08506 v 2.41472 h 2.08506 v 6.19608 H 11.03968 z"/>
+                </svg>
+              </span>
+
+              <span class="username">{{ site.facebook_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
         </ul>
       </div>
 
