@@ -5,16 +5,35 @@ permalink: /projects/
 weight:    3
 ---
 
-<h1 class="page-heading">Projects</h1>
 
-<ul class="project-list">
-  {% for project in site.projects %}
-    <li>
-      <span class="project-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
+<div class="svg-wrap">
+  <svg viewBox="0 0 400 20" xmlns="http://www.w3.org/2000/svg">
+    <path id="svg_line" d="m 1.986,8.91 c 55.429038,4.081 111.58111,5.822 167.11781,2.867 22.70911,-1.208 45.39828,-0.601 68.126,-0.778 28.38173,-0.223 56.76079,-1.024 85.13721,-1.33 24.17379,-0.261 48.42731,0.571 72.58115,0.571"></path>
+  </svg>
+</div>
+<div class="container">
+  <section class="grid3d vertical" id="grid3d">
+    <div class="grid-wrap">
+      <h1 class="page-heading">Projects</h1>
+      <div class="grid">
+        {% for project in site.projects %}
+          <figure><img src="{{ project.picture }}" alt="img" style="-webkit-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);"/></figure>
+        {% endfor %}
+      </div>
+    </div><!-- /grid-wrap -->
+    <div class="content">
+      {% for project in site.projects %}
+        <div class="show-project">
+          <img class="project-pic" src="{{ project.picture }}">
+          <p class="dummy-text"> {{ project.description }} </p>
+          <section class="link-svgline">
+          <a href="{{ project.link }}">View {{ project.title }}<svg class="link-svgline"><use xlink:href="#svg_line"></svg></a>
+          </section>
+        </div>
+      {% endfor %}
+      <span class="loading"></span>
+      <span class="icon close-content">X</span>
+    </div>
+  </section>
+</div>
 
-      <h2>
-        <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul>

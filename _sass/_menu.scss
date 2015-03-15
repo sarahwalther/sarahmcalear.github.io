@@ -22,6 +22,7 @@
   color: transparent;
   outline: none;
   z-index: 100;
+  cursor: pointer;
 }
 
 /* Menu style */
@@ -61,7 +62,7 @@
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-  color: #e3fcb1;
+  color: lightgrey;
 }
 
 /* Effects */
