@@ -6,3 +6,36 @@ header {
     }
   }
 }
+
+.menu-icon {
+    display: block;
+    float: right;
+    width: 56px;
+    height: 56px;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        > svg path {
+
+            fill: rgba(32, 44, 69, 0.73);
+        }
+    }
+    > svg {
+
+        width: 25px;
+        height: 25px;
+
+        path {
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+            fill: $grey-color-dark;
+            fill: #202C45;
+
+        }
+    }
+}
+
