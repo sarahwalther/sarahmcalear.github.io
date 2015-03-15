@@ -137,10 +137,8 @@
   }
 
   function init() {
-    var svgs = Array.prototype.slice.call( document.querySelectorAll( '#main svg' ) ),
-      svgArr = new Array(),
-      didScroll = false,
-      resizeTimeout;
+    var svgs = Array.prototype.slice.call( document.querySelectorAll( '#logo-drawing svg' ) ),
+      svgArr = new Array();
 
     // the svgs already shown...
     svgs.forEach( function( el, i ) {
@@ -155,33 +153,6 @@
       }( el ), 250 );
     } );
 
-    var scrollHandler = function() {
-        if( !didScroll ) {
-          didScroll = true;
-          setTimeout( function() { scrollPage(); }, 60 );
-        }
-      },
-      scrollPage = function() {
-        svgs.forEach( function( el, i ) {
-          if( inViewport( el.parentNode, 0.5 ) ) {
-            svgArr[i].render();
-          }
-        });
-        didScroll = false;
-      },
-      resizeHandler = function() {
-        function delayed() {
-          scrollPage();
-          resizeTimeout = null;
-        }
-        if ( resizeTimeout ) {
-          clearTimeout( resizeTimeout );
-        }
-        resizeTimeout = setTimeout( delayed, 200 );
-      };
-
-    window.addEventListener( 'scroll', scrollHandler, false );
-    window.addEventListener( 'resize', resizeHandler, false );
   }
 
   init();
