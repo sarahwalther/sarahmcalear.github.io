@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I just completed the 12-week-long Web Development Immersive at General Assembly.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+During this time we covered Ruby, Rails, Sinatra, Redis, Javascript, jQuery, Firebase, PostgreSQL, HTML5/CSS3, APIs, Markdown, Wireframing, Jasmine, RSpec, AJAX, Version Control Systems (Git, Github), ORM (Active Record), HTTP protocols, OAuth, OOP, TDD, and BDD.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+My previous experience with Speech-Language-Pathology allows me to have a better understanding of the process of explicitly and clearly including all information necessary to make an app work as well as communicating with my peers effectively.
+
+I enjoy part of building digital products, a positive environment, and am excited to join a team where I can contribute to both.
