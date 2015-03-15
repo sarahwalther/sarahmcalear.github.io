@@ -1,52 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Meta is information google looks for -->
-    <!-- A way letters are encoded -->
-    <meta charset="utf-8"/>
-    <title>
-      Profile
-    </title>
-    <!-- Like this it won't -->
-    <meta name="description" content="his is my profile page."/>
+---
+layout: default
+---
 
-    <!-- or this one -->
-    <link rel="stylesheet" type="text/css" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to my Profile Page</h1>
-    </header>
-    <p>This is my profile page.
+<div class="home">
 
-      I'm sticking to it.
-    </p>
-    <section id="basic-info" class="lists, top-of-the-page important">
-    <!-- This is a picture, with the height allowed  -->
-    <img alt="Picture from the most beautiful day when Germany beat Brazil 7:1" src="img/Sarah_at_soccer_game.jpg" height="200"/>
-    <!-- This is a new paragraph in bold font -->
-    <h2>Sarah McAlear</h2>
-    <ul>
-      <li>May 29th</li>
-      <li>Brooklyn, NY</li>
-      <li><a href="https://github.com/sarahmcalear/">GitHub</a>
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
       </li>
-      <li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">LinkedIn</a>
-      <li><a href="about.html">About Me</a></li>
+    {% endfor %}
+  </ul>
 
-      <li>Pets:</li>
-      <!-- This is starting a bullet list -->
-      <li><ul>
-          <!-- These are the individual items in the list. -->
-          <li>Jack Russell Terrier</li>
-          <li>Pomeranian</li>
-        </ul>
-    </ul>
-    </section>
-    <section id="statement" class="important">
-      <h2>This is me!</h2>
-    </section>
-    <footer>Made with Love in NYC by Sarah</footer>
-  </body>
-</html>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
