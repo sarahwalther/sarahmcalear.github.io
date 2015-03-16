@@ -6,8 +6,10 @@
   box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);
 }
 
-.show-project {
+.show > div.show-project {
   text-align:center;
+  // margin: -80px auto 0;
+  // margin-left: 250px;
   .link-svgline:hover svg.link-svgline {
       margin-top: 8px;
   }

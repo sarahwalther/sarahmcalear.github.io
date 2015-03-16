@@ -21,6 +21,7 @@ figure.blog-grid {
 article.blog-content {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    padding-top: $spacing-unit;
 }
 
 html, body, .blog-container, .blog-header {
@@ -33,6 +34,8 @@ html, body, .blog-container, .blog-header {
   margin: 0 auto;
   min-height: 560px;
   width: 100%;
+  left: 0 !important;
+  margin-top: 30px !important;
 }
 
 .bg-img {
@@ -170,31 +173,31 @@ button.trigger span::before {
 }
 
 /* Conent */
-.content {
+.blog-content {
   margin: 0 auto;
   padding: 0 0 3em;
 }
 
-.content > div:not(.title) {
-  margin: -80px auto 0;
+.blog-content > div:not(.title) {
+  margin: -30px auto 0;
   max-width: 900px;
   padding: 0 1.25em;
 }
 
-.content > div:not(.title) p {
+.blog-content > div:not(.title) p {
   margin: 0 auto 1.5em auto;
 }
 
-.content > div:not(.title) p:first-child {
+.blog-content > div:not(.title) p:first-child {
   font-size: 1.35em;
 }
 
-.content h3 {
+.blog-content h3 {
   margin: 0;
   font-size: 1.4em;
 }
 
-.content blockquote {
+.blog-content blockquote {
   padding: 0.25em;
   font-style: italic;
   font-size: 1.65em;
@@ -202,11 +205,11 @@ button.trigger span::before {
   line-height: 1.4;
 }
 
-.content blockquote::before {
+.blog-content blockquote::before {
   content: '\201C';
 }
 
-.content blockquote::after {
+.blog-content blockquote::after {
   content: '\201D';
 }
 
@@ -236,7 +239,7 @@ button.trigger span::before {
   transition-property: color, opacity, transform;
 }
 
-.intro-effect-jam3:not(.notrans) .content > div {
+.intro-effect-jam3:not(.notrans) .blog-content > div {
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, transform;
 }
@@ -245,7 +248,7 @@ button.trigger span::before {
 .intro-effect-jam3:not(.notrans) .blog-header h1,
 .intro-effect-jam3:not(.notrans) .codrops-top a,
 .intro-effect-jam3:not(.notrans) .codrops-demos a,
-.intro-effect-jam3:not(.notrans) .content > div {
+.intro-effect-jam3:not(.notrans) .blog-content > div {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -254,14 +257,14 @@ button.trigger span::before {
 
 .intro-effect-jam3:not(.notrans) .blog-header p,
 .intro-effect-jam3:not(.notrans) .blog-header p.subline,
-.intro-effect-jam3:not(.notrans) .content > div {
+.intro-effect-jam3:not(.notrans) .blog-content > div {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 
 .intro-effect-jam3.modify:not(.notrans) .blog-header p,
 .intro-effect-jam3.modify:not(.notrans) .blog-header p.subline,
-.intro-effect-jam3.modify:not(.notrans) .content > div {
+.intro-effect-jam3.modify:not(.notrans) .blog-content > div {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
@@ -318,22 +321,22 @@ button.trigger span::before {
   transform: translateY(0);
 }
 
-.intro-effect-jam3 .content {
+.intro-effect-jam3 .blog-content {
   padding: 0 5em 5em;
 }
 
 .intro-effect-jam3 .blog-header,
-.intro-effect-jam3 .content {
+.intro-effect-jam3 .blog-content {
   background: #fff;
 }
 
-.intro-effect-jam3 .content > div {
+.intro-effect-jam3 .blog-content > div {
   opacity: 0;
   -webkit-transform: translateY(150px);
   transform: translateY(150px);
 }
 
-.intro-effect-jam3.modify .content > div {
+.intro-effect-jam3.modify .blog-content > div {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -354,7 +357,7 @@ button.trigger span::before {
   transition-delay: 0.15s;
 }
 
-.intro-effect-jam3.modify:not(.notrans) .content > div {
+.intro-effect-jam3.modify:not(.notrans) .blog-content > div {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
@@ -379,7 +382,7 @@ button.trigger span::before {
 }
 
 .intro-effect-fadeout:not(.notrans) .blog-header p,
-.intro-effect-fadeout:not(.notrans) .content > div {
+.intro-effect-fadeout:not(.notrans) .blog-content > div {
   -webkit-transition-property: -webkit-transform, opacity;
   transition-property: transform, opacity;
 }
@@ -388,7 +391,7 @@ button.trigger span::before {
 .intro-effect-fadeout:not(.notrans) .bg-img::after,
 .intro-effect-fadeout:not(.notrans) .blog-header h1,
 .intro-effect-fadeout:not(.notrans) .blog-header p,
-.intro-effect-fadeout:not(.notrans) .content > div {
+.intro-effect-fadeout:not(.notrans) .blog-content > div {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
@@ -450,18 +453,18 @@ button.trigger span::before {
   transform: translateX(0);
 }
 
-.intro-effect-fadeout .content {
+.intro-effect-fadeout .blog-content {
   z-index: 1000;
   position: relative;
 }
 
-.intro-effect-fadeout .content > div {
+.intro-effect-fadeout .blog-content > div {
   opacity: 0;
   -webkit-transform: translateY(350px);
   transform: translateY(350px);
 }
 
-.intro-effect-fadeout.modify .content > div {
+.intro-effect-fadeout.modify .blog-content > div {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -488,7 +491,7 @@ button.trigger span::before {
   transition-property: opacity;
 }
 
-.intro-effect-sliced:not(.notrans) .content > div {
+.intro-effect-sliced:not(.notrans) .blog-content > div {
   -webkit-transition-property: -webkit-transform, opacity;
   transition-property: transform, opacity;
 }
@@ -497,7 +500,7 @@ button.trigger span::before {
 .intro-effect-sliced:not(.notrans) .blog-header h1,
 .intro-effect-sliced:not(.notrans) .title,
 .intro-effect-sliced:not(.notrans) .blog-header p,
-.intro-effect-sliced:not(.notrans) .content > div,
+.intro-effect-sliced:not(.notrans) .blog-content > div,
 .intro-effect-sliced:not(.notrans) .codrops-demos a {
   -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -508,7 +511,7 @@ button.trigger span::before {
 .intro-effect-sliced.modify:not(.notrans) .blog-header h1,
 .intro-effect-sliced.modify:not(.notrans) .title,
 .intro-effect-sliced.modify:not(.notrans) .blog-header p,
-.intro-effect-sliced.modify:not(.notrans) .content > div,
+.intro-effect-sliced.modify:not(.notrans) .blog-content > div,
 .intro-effect-sliced.modify:not(.notrans) .codrops-demos a {
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
@@ -574,13 +577,13 @@ button.trigger span::before {
   color: #514753;
 }
 
-.intro-effect-sliced .content > div {
+.intro-effect-sliced .blog-content > div {
   -webkit-transform: translateY(200px);
   transform: translateY(200px);
   opacity: 0;
 }
 
-.intro-effect-sliced.modify .content > div {
+.intro-effect-sliced.modify .blog-content > div {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
@@ -612,7 +615,7 @@ button.trigger span::before {
   transition-property: transform, opacity;
 }
 
-.intro-effect-side:not(.notrans) .content > div {
+.intro-effect-side:not(.notrans) .blog-content > div {
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
@@ -621,7 +624,7 @@ button.trigger span::before {
 .intro-effect-side:not(.notrans) .bg-img::after,
 .intro-effect-side:not(.notrans) .title,
 .intro-effect-side:not(.notrans) .blog-header p,
-.intro-effect-side:not(.notrans) .content > div {
+.intro-effect-side:not(.notrans) .blog-content > div {
   -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   -webkit-transition-duration: 0.5s;
@@ -714,12 +717,12 @@ button.trigger span::before {
   transform: translateX(0);
 }
 
-.intro-effect-side .content > div {
+.intro-effect-side .blog-content > div {
   margin-top: 0px;
   opacity: 0;
 }
 
-.intro-effect-side.modify .content > div {
+.intro-effect-side.modify .blog-content > div {
   opacity: 1;
 }
 
@@ -753,7 +756,7 @@ button.trigger span::before {
   transition-delay: 0.2s;
 }
 
-.intro-effect-side.modify:not(.notrans) .content > div {
+.intro-effect-side.modify:not(.notrans) .blog-content > div {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
@@ -776,7 +779,7 @@ button.trigger span::before {
   transition-property: opacity;
 }
 
-.intro-effect-sidefixed:not(.notrans) .content > div {
+.intro-effect-sidefixed:not(.notrans) .blog-content > div {
   -webkit-transition-property: -webkit-transform, opacity;
   transition-property: transform, opacity;
 }
@@ -784,7 +787,7 @@ button.trigger span::before {
 .intro-effect-sidefixed:not(.notrans) .bg-img::before,
 .intro-effect-sidefixed:not(.notrans) .bg-img::after,
 .intro-effect-sidefixed:not(.notrans) .title p,
-.intro-effect-sidefixed:not(.notrans) .content > div {
+.intro-effect-sidefixed:not(.notrans) .blog-content > div {
   -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   -webkit-transition-duration: 0.5s;
@@ -870,25 +873,25 @@ button.trigger span::before {
   opacity: 1;
 }
 
-.intro-effect-sidefixed .content {
+.intro-effect-sidefixed .blog-content {
   width: 60%;
   margin-left: 40%;
   padding: 0 2.5em;
 }
 
-.intro-effect-sidefixed .content div {
+.intro-effect-sidefixed .blog-content div {
   position: relative;
   margin: 70px 0;
   color: #77726b;
 }
 
-.intro-effect-sidefixed .content div:nth-child(2) {
+.intro-effect-sidefixed .blog-content div:nth-child(2) {
   opacity: 0;
   -webkit-transform: translateY(200px);
   transform: translateY(200px);
 }
 
-.intro-effect-sidefixed.modify .content div:nth-child(2) {
+.intro-effect-sidefixed.modify .blog-content div:nth-child(2) {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -910,7 +913,7 @@ button.trigger span::before {
   transition-delay: 0s;
 }
 
-.intro-effect-sidefixed.modify:not(.notrans) .content div:nth-child(2) {
+.intro-effect-sidefixed.modify:not(.notrans) .blog-content div:nth-child(2) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
@@ -920,7 +923,7 @@ button.trigger span::before {
 /* -------------------------- */
 .intro-effect-push:not(.notrans) .blog-header,
 .intro-effect-push:not(.notrans) > .title,
-.intro-effect-push:not(.notrans) .content > div {
+.intro-effect-push:not(.notrans) .blog-content > div {
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, transform;
   -webkit-transition-duration: 1s;
@@ -950,20 +953,20 @@ button.trigger span::before {
   padding: 6em 1em 2em;
 }
 
-.intro-effect-push .content > div {
+.intro-effect-push .blog-content > div {
   margin-top: 50px;
   color: #b2b2c0;
 }
 
 .intro-effect-push > .title,
-.intro-effect-push .content > div {
+.intro-effect-push .blog-content > div {
   -webkit-transform: translateY(400px);
   transform: translateY(400px);
   opacity: 0;
 }
 
 .intro-effect-push.modify > .title,
-.intro-effect-push.modify .content > div {
+.intro-effect-push.modify .blog-content > div {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
@@ -981,7 +984,7 @@ button.trigger span::before {
   transition-delay: 0.5s;
 }
 
-.intro-effect-push.modify:not(.notrans) .content > div {
+.intro-effect-push.modify:not(.notrans) .blog-content > div {
   -webkit-transition-delay: 0.6s;
   transition-delay: 0.6s;
 }
@@ -1050,7 +1053,7 @@ button.trigger span::before {
   transform: translateX(-50%) translateY(0);
 }
 
-.intro-effect-grid .content > div {
+.intro-effect-grid .blog-content > div {
   margin-top: 40px;
   color: #2e3337;
 }
@@ -1207,7 +1210,7 @@ button.trigger span::before {
 
 /* Media Queries */
 @media screen and (max-width: 47em) {
-  .title, .content {
+  .title, .blog-content {
     font-size: 70%;
   }
 
@@ -1239,7 +1242,7 @@ button.trigger span::before {
     background: rgba(255,255,255,0.8);
   }
 
-  .intro-effect-sidefixed .content {
+  .intro-effect-sidefixed .blog-content {
     width: 100%;
     margin-left: auto;
   }
@@ -1251,7 +1254,7 @@ button.trigger span::before {
 }
 
 @media screen and (max-width: 27em) {
-  .intro-effect-jam3 .content {
+  .intro-effect-jam3 .blog-content {
     padding: 0 2em 5em;
   }
 
