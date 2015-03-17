@@ -1,11 +1,37 @@
 ---
 layout:     post
 title:      "Graduate School to Web Immersive"
-date:       2015-03-15 15:48:04
+date:       2015-03-15
 categories: grad school web development immersive boot camp
 picture:    /assets/pictures/blog/DSCF6214.jpg
 content:    My very first blog. Yay!
 ---
 
 
-HELLO!  LBKLASDH:ASDLKJHSADLKJASDLJKGHASDLKGJ
+I got my Masters degree in Speech-Language Pathology. It's a wonderful field with many amazing people who are ready to change the world one student (or patient) at a time. They care deeply about the well-being of every client and are eager to implement the best possible treatment for him/her.
+
+Before I graduated with my Bachelor's degree I was pretty sure I wasn't going to continue my education. I was very tired of taking classes that didn't teach me much and required lots of (busy) work to receive a good grade. However, I had chosen a field that would not allow me to work in my profession without a graduate degree. So I went. I was very pleasently surprised when I learned that Grad School was completely different from Undergrad. The material we covered in class was relevant to my subject of choice and it was very applicable. The assignments were directly related to the clinic work we had to do alongside of the classes, so I could see the importance of (almost) every one.
+
+I was very surprised to see how much every single one of my professors cared about my education as well as my personal well-being. Many of my professors knew exactly what was going on in our lives and what we were anxious about. Our clinic director informed us during our first week of classes that she always keeps tissues in her office and we are more than welcome to talk whenever we need to. I loved having such supportive and caring educators. Our class had a strong bond, being that we spent everyday together in every class. The time outside of class we spent together in the clinic, preparing for clients and being scared of being video-taped while conducting our sessions.
+
+These sessions were used to analyze the quality of therapy we provided by our supervisors, ourselves, clients' parents, and potentially future classes. The classes were challenging, but manageable. In addition to the classwork and clinic work, most students had assistantships in which they either assisted a professor in teaching, research, or both. There were students who did not sleep until late in the mornings because they spent so much time working on school stuff. Our social lives were basically limited to fellow SLP-students during the first year of grad school. The second year focused more on application of the new knowledge through internships. But, like I said before, we learned a lot and we were able to directly apply that knowledge to our clients in the clinic. What kept us going were each other, professors who were invested in us, our clients, and the promise of a great career following our education.
+
+In my case, this became a little difficult after graduation. My husband is in Tech and Ohio wasn't a very conducive environment for him to expand on his knowledge. So we decided to move to New York City. What a great prospect! We always loved the city and were very excited to start our new lives out here. He was quickly able to find work and immensely enjoyed himself. I, however, struggled. This was not something I was expecting being that I had always been told that there was such a vast shortage of SLPs in this country. Turns out that this is true everywhere except NYC. Well, also in NYC, but here employers were unwilling to hire new graduates. I was able to make connections in which I was sure I was going to be able to at least get an interview, but as soon as employers realized that I was a new graduate, I was out.
+
+Shortly after I started working in customer service. I worked for a great company, but realized quickly that customer service was not something I wanted to do. After some consideration I decided to go to General Assembly to take the Web Development Immersive there. It's a three-month intensive program during which students are taught to program, regardless of how much experience he or she had before. I had no experience before this. Before classes started, we were sent a tutorial for fundamentals, which we were to be completed before the first day of class. The whole program was very fast-paced. We learned new material everyday and applied it during daily assignments in the afternoons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
