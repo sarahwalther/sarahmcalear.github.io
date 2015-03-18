@@ -1,5 +1,5 @@
 ---
-layout:     plain
+layout:     default
 title:      "Resume"
 date:       2015-03-18 16:30:04
 categories: resume

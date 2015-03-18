@@ -16,9 +16,6 @@ markdown: kramdown
 collections:
   projects:
     output: true
-
-
-collections:
   about:
     output: true
 
