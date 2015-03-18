@@ -18,3 +18,7 @@ collections:
     output: true
 
 
+collections:
+  about:
+    output: true
+
