@@ -1,10 +1,22 @@
 .post-title {
-  margin-top: 20px;
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
+  margin: 20px auto;
+  margin-top: 120px;
+  max-width: 800px;
 }
 
 #about-content {
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
+  color: grey;
+  margin: $spacing-unit auto;
+  max-width: 800px;
+  .link-svgline {
+    margin-top: 6px;
+  }
+  section.link-svgline {
+    padding: 0;
+    p{
+      padding-top: 20px;
+      font-size: 16px;
+      text-align: left;
+    }
+  }
 }

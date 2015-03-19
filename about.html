@@ -5,17 +5,26 @@ permalink: /about/
 weight:    2
 ---
 
-<div id="about-content">
-  <p>I just completed the 12-week-long Web Development Immersive at General Assembly.</p>
-
-  <p>During this time we covered Ruby, Rails, Sinatra, Redis, Javascript, jQuery, Firebase, PostgreSQL, HTML5/CSS3, APIs, Markdown, Wireframing, Jasmine, RSpec, AJAX, Version Control Systems (Git, Github), ORM (Active Record), HTTP protocols, OAuth, OOP, TDD, and BDD.</p>
-
-  <p>My previous experience with Speech-Language-Pathology allows me to have a better understanding of the process of explicitly and clearly including all information necessary to make an app work as well as communicating with my peers effectively.</p>
-
-  <p>I enjoy part of building digital products, a positive environment, and am excited to join a team where I can contribute to both.</p>
-
-<!--   {% for post in site.about %}
-    <a href="{{ post.url | prepend: site.baseurl }}" ><h4>{{ post.title }}</h4>
-  {% endfor %} -->
+<div class="svg-wrap">
+  <svg viewBox="0 0 400 20" xmlns="http://www.w3.org/2000/svg">
+    <path id="svg_line" d="m 1.986,8.91 c 55.429038,4.081 111.58111,5.822 167.11781,2.867 22.70911,-1.208 45.39828,-0.601 68.126,-0.778 28.38173,-0.223 56.76079,-1.024 85.13721,-1.33 24.17379,-0.261 48.42731,0.571 72.58115,0.571"></path>
+  </svg>
 </div>
+
+<div id="about-content">
+  <section class="link-svgline">
+    <p>I just completed the 12-week-long Web Development Immersive at <a target=_blank href="https://profiles.generalassemb.ly/sarah-mcalear">General Assembly<svg class="link-svgline"><use xlink:href="#svg_line"></svg></a>.</p>
+
+    <p>During this time we covered Ruby, Rails, Sinatra, Redis, Javascript, jQuery, Firebase, PostgreSQL, HTML5/CSS3, APIs, Markdown, Wireframing, Jasmine, RSpec, AJAX, Version Control Systems (Git, Github), ORM (Active Record), HTTP protocols, OAuth, OOP, TDD, and BDD.</p>
+
+    <p>My previous experience with Speech-Language-Pathology allows me to have a better understanding of the process of explicitly and clearly including all information necessary to make an app work as well as communicating with my peers effectively.</p>
+
+    <p>I enjoy part of building digital products, a positive environment, and am excited to join a team where I can contribute to both.</p>
+
+  {% for post in site.about %}
+      <p><a href="{{ post.url | prepend: site.baseurl }}">View my {{ post.title }}<svg class="link-svgline"><use xlink:href="#svg_line"></svg></a><p>
+  {% endfor %}
+  </section>
+</div>
+
 

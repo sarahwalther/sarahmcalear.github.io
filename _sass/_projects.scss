@@ -10,8 +10,11 @@
   text-align:center;
   // margin: -80px auto 0;
   // margin-left: 250px;
-  .link-svgline:hover svg.link-svgline {
+  .link-svgline {
+    padding-top: 15px;
+    &:hover svg.link-svgline {
       margin-top: 8px;
+    }
   }
 }
 
@@ -237,6 +240,7 @@ body {
 .content > div.show .dummy-img,
 .content > div.show .dummy-text {
   opacity: 1;
+  color: grey;
 }
 
 .vertical .content > div.show .dummy-img,
