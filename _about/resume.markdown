@@ -25,6 +25,7 @@ categories: resume
 - Wrote apps by applying principles of test-driven development using Jasmine and RSpec.
 - Created a travel app using Ruby on Rails, Materialize, and JavaScript.
 - Designed single-page-applications using JavaScript.
+- Made a music player app using JavaScript and Ruby on Rails while working closely in a team with a Product Manager, a User Experience Designer, and other developers.
 
 #### **Executive Assistant/Office Manager** *May 2009 – August 2012*
 

@@ -113,6 +113,11 @@ section p {
     -webkit-transform: translateY(-80%);
     transform: translateY(-80%);
   }
+  .home {
+    .link-svgline p {
+      font-size: 30px;
+    }
+  }
 }
 
 .link-svgmarker a:hover svg.link-svgline {

@@ -1253,7 +1253,44 @@ button.trigger span::before {
 
 }
 
+@media screen and (max-width: 50em) {
+
+  figure.blog-grid {
+    h4{
+      width: 92.5%;
+      font-size: 13px;
+    }
+  }
+
+}
+
 @media screen and (max-width: 27em) {
+
+  figure.blog-grid {
+    h4{
+      width: 92.5%;
+      font-size: 13px;
+    }
+  }
+
+  .blog-content {
+    div {
+      p {
+        font-size: 17px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .blog-header {
+    max-height: 245px;
+    .bg-img {
+      max-height: 300px;
+    }
+  }
+
   .intro-effect-jam3 .blog-content {
     padding: 0 2em 5em;
   }
