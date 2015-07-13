@@ -50,8 +50,9 @@ body {
 
 .grid figure,
 .grid .placeholder {
-  width: 340px;
-  height: 300px;
+  // width: 340px;
+  // height: 300px;
+  width: 45%;
 }
 
 .grid figure {
@@ -117,6 +118,7 @@ body {
 .grid figure img {
   display: block;
   width: 100%;
+  height: 270px;
 }
 
 .content,
@@ -321,12 +323,27 @@ p.dummy-text:nth-child(3) {
 
   .grid figure,
   .grid .placeholder {
-    width: 240px;
-    height: 212px;
+    height: 270px;
   }
 
   .project-pic {
     max-width: 18em;
   }
 
+}
+
+@media screen and (max-width: 730px) {
+
+  .grid figure {
+    height: 190px;
+    img{
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .grid figure, .grid .placeholder {
+    width: 100%;
+  }
 }
