@@ -15,6 +15,7 @@ figure.blog-grid {
     bottom: 15px;
     background: rgba(0, 0, 0, 0.35);
     margin: 10px;
+    width: inherit;
   }
 }
 
@@ -1259,6 +1260,7 @@ button.trigger span::before {
     h4{
       width: 92.5%;
       font-size: 13px;
+      width: inherit;
     }
   }
 
@@ -1270,6 +1272,7 @@ button.trigger span::before {
     h4{
       width: 92.5%;
       font-size: 13px;
+      width: inherit;
     }
   }
 
